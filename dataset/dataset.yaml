@@ -1,0 +1,12 @@
+path: dataset
+train: images/train
+val: images/val
+
+nc: 6
+names:
+  - sperm
+  - leucocyte
+  - agglutination
+  - red blood cell
+  - urethral epithelial cells
+  - crystals
