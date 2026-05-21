@@ -61,8 +61,14 @@ yaml_content = """path: dataset
 train: images/train
 val: images/val
 
-nc: 5
-names: ['sperm', 'class1', 'class2', 'class3', 'class4']
+nc: 6
+names:
+  - sperm
+  - leucocyte
+  - agglutination
+  - red blood cell
+  - urethral epithelial cells
+  - crystals
 """
 
 with open(OUTPUT_PATH / "dataset.yaml", "w", encoding="utf-8") as f:
