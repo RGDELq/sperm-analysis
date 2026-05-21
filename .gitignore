@@ -6,11 +6,7 @@ __pycache__/
 .venv/
 venv/
 
-# YOLO runs
-runs/
 
-# Dataset
-dataset/
 
 # Trajectories
 trajectories/
@@ -18,8 +14,6 @@ trajectories/
 # VS Code
 .vscode/
 
-# Models
-*.pt
 
 # System
 .DS_Store
@@ -34,4 +28,3 @@ trajectories/
 tracked_output/
 dataset/
 data/
-trajectories/
