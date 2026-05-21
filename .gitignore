@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# YOLO runs
+runs/
+
+# Dataset
+dataset/
+
+# Trajectories
+trajectories/
+
+# VS Code
+.vscode/
+
+# Models
+*.pt
+
+# System
+.DS_Store
+
+# Large files
+*.mp4
+*.avi
+*.mov
+*.csv
+*.pt
+
+tracked_output/
+dataset/
+data/
+trajectories/
