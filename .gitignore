@@ -7,10 +7,6 @@ __pycache__/
 venv/
 
 
-
-# Trajectories
-trajectories/
-
 # VS Code
 .vscode/
 
@@ -18,13 +14,4 @@ trajectories/
 # System
 .DS_Store
 
-# Large files
-*.mp4
-*.avi
-*.mov
-*.csv
-*.pt
 
-tracked_output/
-dataset/
-data/

@@ -12,7 +12,8 @@ if __name__ == '__main__':
     # =========================
     model.train(
 
-        data=r"C:\Users\AL-OFQ\sperm_analysis\dataset\dataset.yaml",
+        # use relative path to the dataset yaml (relative to this script's working directory)
+        data=r"dataset/dataset.yaml",
 
         # training
         epochs=50,
@@ -45,7 +46,7 @@ if __name__ == '__main__':
         mixup=0.1,
 
         # save
-        project=r"C:\Users\AL-OFQ\runs\detect",
+        project=r"runs/detect",
         name="sperm_multiclass"
     )
 
