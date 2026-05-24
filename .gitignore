@@ -6,12 +6,30 @@ __pycache__/
 .venv/
 venv/
 
-
 # VS Code
 .vscode/
-
 
 # System
 .DS_Store
 
+# Videos
+*.mp4
+*.avi
+*.mov
 
+# Models
+*.pt
+
+# Cache
+*.cache
+
+# Outputs
+tracked_output/
+chiaro_test/
+
+# Dataset generated files
+dataset/
+
+# CSV results
+evaluation_results.csv
+evaluation_matched.csv

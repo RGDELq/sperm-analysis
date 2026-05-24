@@ -30,8 +30,11 @@ if __name__ == '__main__':
     # =====================================================
     # GET ALL VIDEOS
     # =====================================================
-    videos = list(ROOT_PATH.rglob("*.mp4"))
-
+    videos = [
+    v for v in ROOT_PATH.rglob("*.mp4")
+    if "contrasto" not in v.stem.lower()
+    and "contraso" not in v.stem.lower()
+    ]
     print(f"✅ Found {len(videos)} videos")
 
     # =====================================================
