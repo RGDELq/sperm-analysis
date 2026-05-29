@@ -16,8 +16,8 @@ if __name__ == '__main__':
         data=r"dataset/dataset.yaml",
 
         # training
-        epochs=50,
-        patience=20,
+        epochs=100,
+        patience=30,
 
         # tiny object detection
         imgsz=1024,
@@ -25,7 +25,7 @@ if __name__ == '__main__':
         # hardware
         batch=8,
         device=0,
-        workers=1,
+        workers=4,
 
         # optimizer
         optimizer='AdamW',
@@ -33,7 +33,7 @@ if __name__ == '__main__':
 
         # augmentations
         hsv_h=0.015,
-        hsv_s=0.7,
+        hsv_s=0.5,
         hsv_v=0.4,
 
         degrees=5,
@@ -43,7 +43,7 @@ if __name__ == '__main__':
         fliplr=0.5,
 
         mosaic=1.0,
-        mixup=0.1,
+        mixup=0,
 
         # save
         project=r"runs/detect",

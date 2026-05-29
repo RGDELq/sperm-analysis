@@ -12,24 +12,16 @@ venv/
 # System
 .DS_Store
 
-# Videos
-*.mp4
-*.avi
-*.mov
-
-# Models
-*.pt
-
-# Cache
-*.cache
-
-# Outputs
-tracked_output/
-chiaro_test/
-
-# Dataset generated files
+# Dataset & generated data
+data/
 dataset/
 
-# CSV results
-evaluation_results.csv
-evaluation_matched.csv
+# Tracking outputs
+tracked_output/
+
+# Tracking outputs
+tracked_output/
+
+
+# Ignore YOLO weights only
+*.p
